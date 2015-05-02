@@ -1,0 +1,2 @@
+vhdl work "FPGA_ADC.vhd"
+vhdl work "ADC_Interface_TB.vhd"

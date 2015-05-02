@@ -1,0 +1,2 @@
+vhdl work ../../Interface.vhd
+vhdl work ../example_design/Interface_exdes.vhd

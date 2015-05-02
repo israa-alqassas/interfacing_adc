@@ -1,0 +1,2 @@
+vhdl work "FPGA_ADC.vhd"
+vhdl work "ipcore_dir/Interface/example_design/Interface_exdes.vhd"

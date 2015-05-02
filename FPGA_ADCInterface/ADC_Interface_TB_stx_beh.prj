@@ -1,0 +1,2 @@
+vhdl isim_temp "FPGA_ADC.vhd"
+vhdl isim_temp "ADC_Interface_TB.vhd"

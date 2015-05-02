@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="FPGA_ADCInterface.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ADC_FPGA_Interface.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ADC_FPGA_Interface.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ADC_FPGA_Interface.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ADC_FPGA_Interface.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ADC_FPGA_Interface.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ADC_FPGA_Interface.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ADC_FPGA_Interface_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ADC_FPGA_Interface_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ADC_FPGA_Interface_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ADC_Interface_TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ADC_Interface_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ADC_Interface_TB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ADC_Interface_TB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FPGA_ADC.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="FPGA_ADC.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="FPGA_ADC.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="InterfaceTB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="InterfaceTB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ram_dp_ar_aw_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1430572687" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1430572687">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1430572687" xil_pn:in_ck="8813905428104603758" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1430572687">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ADC_Interface_TB.vhd"/>
+      <outfile xil_pn:name="Buffer2.vhd"/>
+      <outfile xil_pn:name="FPGA_ADC.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1430572687" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1352050134085079331" xil_pn:start_ts="1430572687">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1430572687" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2247481605397065295" xil_pn:start_ts="1430572687">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1430572687" xil_pn:in_ck="-5112014841073693907" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="2096195799474354198" xil_pn:start_ts="1430572687">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1430572687" xil_pn:in_ck="8813905428104603758" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1430572687">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ADC_Interface_TB.vhd"/>
+      <outfile xil_pn:name="Buffer2.vhd"/>
+      <outfile xil_pn:name="FPGA_ADC.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1430572696" xil_pn:in_ck="2557351571238063795" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7023750207765478423" xil_pn:start_ts="1430572687">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ADC_Interface_TB_beh.prj"/>
+      <outfile xil_pn:name="ADC_Interface_TB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1430572697" xil_pn:in_ck="-3041295181945400174" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5898439361091429148" xil_pn:start_ts="1430572696">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ADC_Interface_TB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1429958186" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1429958185">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1429958186" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6281024531284883531" xil_pn:start_ts="1429958186">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1429970140" xil_pn:in_ck="-5112014841073693907" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="2096195799474354198" xil_pn:start_ts="1429970140">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/MyRam.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/MyRam.vhd"/>
+    </transform>
+    <transform xil_pn:name="TRAN_SubProjectAbstractToPreProxy">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1429958186" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-3482069350321257079" xil_pn:start_ts="1429958186">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1429958186" xil_pn:in_ck="-2675793092045927620" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="5702940744460053484" xil_pn:start_ts="1429958186">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1429958186" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="3655337079323002912" xil_pn:start_ts="1429958186">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1429970217" xil_pn:in_ck="-6859629844634343082" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="3664944979269704330" xil_pn:start_ts="1429970211">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ADC_FPGA_Interface.lso"/>
+      <outfile xil_pn:name="ADC_FPGA_Interface.prj"/>
+      <outfile xil_pn:name="ADC_FPGA_Interface.syr"/>
+      <outfile xil_pn:name="ADC_FPGA_Interface.xst"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1429958206" xil_pn:in_ck="999852429772327643" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-7983626533000929890" xil_pn:start_ts="1429958206">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

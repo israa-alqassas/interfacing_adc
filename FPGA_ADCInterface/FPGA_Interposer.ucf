@@ -1,0 +1,27 @@
+-- UCF
+
+NET "CLK_IN_N" LOC = "C9"; ## G7 on J1
+NET "CLK_IN_P" LOC = "D9"; ## G6 on J1
+NET "Din_N(0)" LOC = "C11"; ## D9 on J1
+NET "Din_P(0)" LOC = "D11"; ## D8 on J1
+NET "Din_N(1)" LOC = "A15"; ## H8 on J1
+NET "Din_P(1)" LOC = "C15"; ## H7 on J1
+NET "Din_P(2)" LOC = "A13"; ## G10 on J1
+NET "Din_P(2)" LOC = "C13"; ## G9 on J1
+NET "FMC_LA04_N" LOC = "A16"; ## H11 on J1
+NET "FMC_LA04_P" LOC = "B16"; ## H10 on J1
+NET "FMC_LA05_N" LOC = "A14"; ## D12 on J1
+NET "FMC_LA05_P" LOC = "B14"; ## D11 on J1
+NET "FMC_LA06_N" LOC = "C12"; ## C11 on J1
+NET "FMC_LA06_P" LOC = "D12"; ## C10 on J1
+NET "FMC_LA07_N" LOC = "E8"; ## H14 on J1
+NET "FMC_LA08_N" LOC = "E11"; ## G13 on J1
+NET "FMC_LA08_P" LOC = "F11"; ## G12 on J1
+NET "FMC_LA09_N" LOC = "F10"; ## D15 on J1
+NET "FMC_LA09_P" LOC = "G11"; ## D14 on J1
+NET "FMC_LA10_N" LOC = "C8"; ## C15 on J1
+NET "FMC_LA10_P" LOC = "D8"; ## C14 on J1
+NET "FMC_LA11_N" LOC = "A12"; ## H17 on J1
+NET "FMC_LA11_P" LOC = "B12"; ## H16 on J1
+NET "FMC_LA12_N" LOC = "C6"; ## G16 on J1
+NET "FMC_LA12_P" LOC = "D6"; ## G15 on J1

@@ -1,0 +1,10 @@
+Command line:
+   ADC_Interface_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63911
+
+Sat May 02 16:18:27 2015
+
+
+ Elaboration Time: 0.078125 sec
